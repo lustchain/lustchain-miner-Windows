@@ -2,10 +2,10 @@
 
 **Parameters**
 
-- **Network name:** Lustchain
+- **Network name:** Lust Chain
 - **RPC URL:** https://rpc.lustchain.org
 - **Chain ID:** 6923 (`0x1b0b`)
-- **Currency symbol:** LUST
+- **Currency symbol:** LST
 - **Block explorer URL (optional):** *(none)*
 
 ## MetaMask (Browser / Mobile)
@@ -17,8 +17,8 @@ await window.ethereum.request({
   method: 'wallet_addEthereumChain',
   params: [{
     chainId: '0x1b0b',
-    chainName: 'Lustchain',
-    nativeCurrency: { name: 'Lust', symbol: 'LUST', decimals: 18 },
+    chainName: 'Lust Chain',
+    nativeCurrency: { name: 'Lust', symbol: 'LST', decimals: 18 },
     rpcUrls: ['https://rpc.lustchain.org'],
     blockExplorerUrls: []
   }]

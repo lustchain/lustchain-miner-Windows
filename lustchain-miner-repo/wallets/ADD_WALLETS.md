@@ -38,10 +38,10 @@ await window.ethereum.request({
 {
   "chainId": 6923,
   "chainIdHex": "0x1b0b",
-  "chainName": "Lustchain",
+  "chainName": "Lust Chain",
   "nativeCurrency": {
     "name": "Lust",
-    "symbol": "LUST",
+    "symbol": "LST",
     "decimals": 18
   },
   "rpcUrls": [
